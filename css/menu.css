@@ -1,0 +1,88 @@
+#menu_ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: inline;
+  top: 100px;
+  left: 0px;
+  right: 0px;
+  position: fixed;
+}
+
+span.menu_li {
+  float: left;
+}
+
+span.menu_li a.menu_li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+span.menu_li a.menu_li:hover {
+  background-color: #4169E1;
+}
+
+#contact {
+  border: 1px solid #f1f1f1;
+  color: white;
+  padding: 10px;
+  background-color: #333;
+  text-decoration: none;
+  display: inline;
+  right: 5px;
+  bottom: 5px;
+  position: fixed;
+}
+
+#contact:hover{
+  background-color: #4169E1;
+  border: 1px solid #4169E1;
+}
+
+#header_img {
+  display: inline;
+}
+
+#logo {
+  position: fixed;
+  left: 0px;
+}
+
+#gif {
+  position: fixed;
+  margin-left: 20%;
+  top:28px;
+  width: 800px;
+}
+
+#fb {
+  position: fixed;
+  width: 90px;
+  height: 90px;
+  right: 10px;
+}
+
+#voltaire {
+  width: 90px;
+  height: 90px;
+  position: fixed;
+  right: 110px;
+}
+
+#ecole_directe {
+  width: 92px;
+  height: 92px;
+  position: fixed;
+  right: 210px;
+}
+
+#sing_in {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
